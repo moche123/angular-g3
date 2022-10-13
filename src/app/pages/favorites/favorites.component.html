@@ -1,8 +1,8 @@
 <div class="container-characters">
     <section class="item" *ngFor="let favorite of favorites">
-        {{favorite.name}}
+        {{favorite.nameCharacter}}
  
-        <img [src]="favorite.image" alt="">
+        <img [src]="favorite.caracterUrlImagen" alt="">
         <button class="btn-add-favorite" (click)="removeFavorite(favorite)">Remove favorite</button>
     </section>
  </div>  

@@ -11,7 +11,7 @@
 
         <img class="container-characters__item__img" [src]="character.image" alt="">
 
-        <button class="container-characters__item__button" routerLink="/pages/favorites">ADD TO FAVORITES</button>
+        <button class="container-characters__item__button" (click)="addFavorite(character)">ADD TO FAVORITES</button>
        
     </section>
 </div>
